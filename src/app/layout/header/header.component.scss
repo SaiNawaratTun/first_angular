@@ -8,4 +8,12 @@
     height: 100%;
     object-fit: contain;
   }
+  a {
+    font-weight: 300;
+    text-decoration: none;
+    &.active {
+      font-weight: 900;
+      color: rgb(23, 14, 113);
+    }
+  }
 }
